@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pswudoclasss</title>
+    <style>
+    p:nth-child(even){
+          background-color: aqua;
+          color: RED;
+          width: 3800px;
+       }
+       li:first-of-type{
+           background-color: blue;
+           color: yellow;
+       }
+       p::first-letter{
+           color: green;
+           font-size: 3rem;
+       }
+       ::selection{
+           color: rgb(0, 255, 0);
+           
+       }
+
+       .demo::before, .demo::after{
+           content: '';
+           width: 100%;
+           height: 15px;
+           background: red;
+           display: inline-block;
+       }
+        
+        input::placeholder{
+            color:aqua
+        }
+    </style>
+</head>
+<body>
+    <div class="demo">    
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    </div>
+    <ul>
+        <li>home</li>
+        <li>home2</li>
+        <li>home3</li>
+
+        <li>home4</li>
+        <li>home5</li>
+    </ul>
+
+<input type="text" placeholder="HEllo">
+
+
+</body>
+</html>
