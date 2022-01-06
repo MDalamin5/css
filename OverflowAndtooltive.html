@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow And Tooltive</title>
+    <style>
+        .overfollow{
+            width: 250px;
+            height: 200px;
+            background-color: yellow;
+            border: red solid 3px;
+            overflow: auto;
+        }
+        .tooltive .tooltive-text{
+            width: 120px;
+            visibility: hidden;
+            color: white;
+            background-color: purple;
+            border: black solid 2px;
+            padding: 5px;
+            position: absolute;
+            top: 30px;
+            left: 40px;
+            z-index: 1;
+            
+        }
+        .tooltive:hover .tooltive-text{
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" class="tooltive">Facebook <span class="tooltive-text">Its a social Media</span> </a>
+    <br><br>
+
+
+    <div class="overfollow">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis non, totam enim blanditiis tempora in exercitationem architecto a! Omnis fugiat excepturi ipsam nam. Culpa, pariatur? Nisi quo animi sequi tempora voluptatum, magni quam eius, reprehenderit at ipsa maxime quos praesentium consequatur in quasi debitis numquam, id expedita aperiam laboriosam! Voluptates voluptate consequatur expedita suscipit inventore? Dicta velit quibusdam molestiae temporibus ea! Facilis fuga quos quasi nam dolorem. Obcaecati magni assumenda ullam, eligendi illo inventore quo dignissimos, aliquam libero ratione quod repellendus pariatur sapiente accusamus labore in ipsa odit laudantium? Distinctio possimus, quis accusamus rem excepturi aperiam culpa quisquam fuga sed.</p>
+    </div>
+</body>
+</html>
