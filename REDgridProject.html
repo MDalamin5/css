@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grid Project</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        .header{
+            background-color: coral;
+            color: white;
+            padding: 1% 5%;
+            text-align: center;
+        }
+
+        .nav-menu{
+            padding: 1% 5%;
+            background-color: #5e2caf;
+        }
+        .nav-menu a {
+            color: whitesmoke;
+            text-decoration: none;
+            font-size: 1.3rem;
+            padding: 10px;
+            display: block;
+            text-align: center;
+            
+        }
+        .main{
+            background-color: rgb(123, 231, 220);
+        }
+        .aside{
+            background-color: rgb(50, 49, 146);
+            color: whitesmoke;
+        }
+        .footer{
+            background-color: black;
+            color: whitesmoke;
+            text-align: center;
+        }
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+            [class*="col-"]{
+                float: left;
+                padding: 10px;
+            }
+
+            .row::after{
+                content: '';
+                clear: both;
+                display: table;
+            }
+
+            @media screen and (max-width: 768px){
+
+                [class*="col-"]{
+                    width: 100%;
+                }
+            }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Md Al Amin</h1>
+    </div>
+
+    <div class="row">
+        <div class="nav-menu col-2">
+            <a href="#">Home</a>
+            <a href="#">Tutorial</a>
+            <a href="#">Blog</a>
+        </div>
+
+            <div class="main col-7">
+                <h1>I'm a web designer</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, blanditiis.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus earum, nulla impedit accusantium repudiandae soluta eius architecto optio, illo quisquam modi. Facilis id vero saepe reiciendis rerum perspiciatis nostrum delectus voluptates ab laboriosam consequuntur ea neque atque rem, ipsum omnis sed, officiis culpa enim tenetur aperiam porro odit blanditiis assumenda. Nihil natus in corporis sapiente, unde at fuga illo assumenda, odit perspiciatis ducimus molestias libero. Nemo deleniti illum cupiditate voluptatum ad, officia architecto quis, voluptatibus ab consectetur magni labore amet quisquam alias delectus necessitatibus laborum nulla quae? Suscipit, quae expedita blanditiis odit explicabo non at, impedit dolore a officiis cum placeat pariatur aliquam! Molestiae repudiandae eligendi quod veritatis aliquid ea, rem esse placeat magnam optio eveniet natus! Praesentium perferendis consequuntur, ab qui et adipisci veniam debitis labore, nesciunt id optio commodi officiis amet nemo nisi quis eius rem, eum minus provident ad distinctio quos culpa aspernatur? Repudiandae soluta, dolores optio consectetur suscipit deserunt illo praesentium voluptatum? Illo tempora enim repellat repudiandae dolore soluta eligendi voluptas, provident id unde odio vel odit, blanditiis molestiae dolores officia reiciendis fuga obcaecati? Consectetur soluta accusamus error sunt, cum quia quasi, possimus labore nobis eaque exercitationem ipsum sapiente dignissimos! Modi perspiciatis, tempore aliquam vitae tenetur omnis, reiciendis, debitis dolorem id odit expedita. Commodi beatae, illum, dolores voluptas nisi at eum sunt a delectus excepturi enim, officia rerum magnam perspiciatis possimus ab nesciunt eveniet? Quisquam atque culpa quidem hic. Harum omnis autem aspernatur eveniet officia culpa, mollitia deleniti quis quo! Rerum, impedit et architecto pariatur, repellendus dolorem laborum quidem dolore id nesciunt aliquid magnam modi veniam ex molestias? Recusandae sunt fugit, quasi praesentium culpa officiis doloribus, qui nesciunt quia rerum alias quos quo quod? Perferendis iure molestiae minus tempore eos, reprehenderit assumenda maxime nobis earum quas praesentium recusandae quos amet ipsa quia eum! Incidunt, error libero.</p>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores quis mollitia error blanditiis. Repudiandae dicta mollitia vel perferendis id dolorum blanditiis quis et harum ad aliquam, sequi laborum cumque sed nisi magni nulla cupiditate laudantium sint voluptatum! Accusantium, quod. Soluta commodi ullam dolores nisi, deserunt inventore id animi autem quae neque mollitia. Architecto distinctio magni error, minima unde molestias libero quidem dolor, nemo accusantium optio tempore molestiae perferendis consequatur quas?</p>
+
+            </div>
+
+                <div class="aside col-3">
+                    <h2>what i love?</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati veniam provident voluptas delectus accusamus debitis quo, voluptatum, maiores omnis optio voluptatibus exercitationem velit! Dolorem aut accusantium natus ipsum voluptas dolorum labore eveniet possimus ut, excepturi beatae! Porro labore eveniet magni quo, iusto ipsum recusandae voluptatibus maiores, rerum deleniti voluptatem nostrum corrupti dolorum nemo eius error neque excepturi deserunt quasi debitis? Facilis dolore culpa reprehenderit repellendus eligendi doloribus voluptate. Animi suscipit et qui nisi dignissimos voluptatibus hic dicta, inventore odio corrupti. Nobis maxime recusandae quaerat beatae sequi quo expedita cupiditate. Delectus deserunt reprehenderit esse qui dignissimos officiis amet. Velit, laborum error.</p>
+                    <h2>What I Do?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, beatae!</p>
+                    <h2>What i don't do</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis velit, corrupti iure porro placeat in natus officia expedita magni? Quisquam.</p>
+
+                </div>
+    </div>
+
+    <div class="footer">
+        &copy; Study with Alamin 2022. Develop By Alamin.
+    </div>
+</body>
+</html>
